@@ -1,0 +1,26 @@
+{% extends 'headerfooter.html' %} {% load static %} {% block content %}
+<style>
+  body {
+    background: url("../static/img/bg-pattern.jpg");
+  }
+</style>
+<section id="faq">
+  <div class="w-[1000px] m-auto p-4 space-y-8">
+    <div class='bg-gray-400 bg-opacity-25 h-fit p-4 rounded-xl'>
+      <h1>Pembayaran via apa saja?</h1>
+      <p>Pembayaran bisa dilakukan via e-wallet seperti DANA dan transfer bank</p>
+    </div>
+    
+    <div class='bg-gray-400 bg-opacity-25 h-fit p-4 rounded-xl'>
+      <h1>Untuk pengirimannya bagaimana?</h1>
+      <p>Biaya pengiriman akan ditanggung oleh pihak toko apabila pembelian melebihi Rp. 5.000.000</p>
+    </div>
+
+    <div class='bg-gray-400 bg-opacity-25 h-fit p-4 rounded-xl'>
+      <h1>Bisa order custom apa tidak?</h1>
+      <p>Bisa, silakan hubungi kontak kami</p>
+    </div>
+
+  </div>
+</section>
+{% endblock %}

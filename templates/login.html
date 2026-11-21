@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PC Corpo | {{title}}</title>
+    <link rel="stylesheet" href="{% static 'src/styles.css' %}" />
+    <link rel="stylesheet" href="{% static 'src/native-styles.css' %}" />
+  </head>
+  <style>
+    body {
+      background: url("../static/img/bg-pattern.jpg");
+    }
+    table,
+    td,
+    tr {
+      color: white;
+    }
+    td{
+        padding: 10px;
+    }
+    input {
+      color: black;
+    }
+  </style>
+  <body>
+    <div class="mt-52">
+      <div
+        class="border-white border-2 border-solid p-8 bg-gray-600 m-auto w-fit rounded-xl"
+      >
+      <a href="/register" class='hover:text-red-400'>Kembali</a>
+        <table class='m-auto'>
+          <tr>
+            <td>Email</td>
+            <td><input type="text" name="" id=""></td>
+          </tr>
+          <tr>
+            <td>Password</td>
+            <td><input type="text" name="" id=""></td>
+          </tr>
+        </table>
+        <div class='text-center p-2'>
+        <a href="/login" class='hover:text-red-400'>Login</a>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

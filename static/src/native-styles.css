@@ -1,0 +1,11 @@
+* {
+  font-family: "Montserrat", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+p,
+a, h1, caption, li {
+  color: white;
+}
